@@ -20,11 +20,4 @@ export default defineConfig({
     optimizeDeps: {
         include: ["lucide-react"],
     },
-    build: {
-        outDir: "public/build",
-        manifest: "manifest.json",
-        rollupOptions: {
-            input: ["resources/css/app.css", "resources/js/app.jsx"],
-        },
-    },
 });
